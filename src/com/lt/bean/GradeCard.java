@@ -2,6 +2,15 @@ package com.lt.bean;
 
 public class GradeCard {
 	private int semester;
+	private int studentId;
+
+	public int getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
 
 	public int getSemester() {
 		return semester;
@@ -14,6 +23,7 @@ public class GradeCard {
 	public GradeCard(int semester) {
 		super();
 		this.semester = semester;
+		this.studentId = studentId;
 	}
 
 	@Override
